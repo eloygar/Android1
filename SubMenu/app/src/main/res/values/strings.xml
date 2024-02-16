@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SubMenu</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="trid_fragment_label">Trid Fragment</string>
+    <string name="four_fragment_label">Four Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        esto es un fragmento
+    </string>
+    <string name="item2">gallery</string>
+    <string name="item">home</string>
+    <string name="item4">slideshow</string>
+    <string name="item3">web</string>
+</resources>

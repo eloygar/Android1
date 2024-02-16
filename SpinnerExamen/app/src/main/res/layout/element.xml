@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/equipoImagen"
+        android:layout_width="98dp"
+        android:layout_height="65dp" />
+
+    <TextView
+        android:id="@+id/equipoNombre"
+        android:layout_width="117dp"
+        android:layout_height="65dp"
+        android:text="Nombre" />
+
+    <TextView
+        android:id="@+id/equipoCiudad"
+        android:layout_width="67dp"
+        android:layout_height="69dp"
+        android:text="Ciudad"
+
+        />
+
+    <TextView
+        android:id="@+id/equipoPais"
+        android:layout_width="58dp"
+        android:layout_height="70dp"
+        android:text="Pais"
+
+        />
+
+    <TextView
+        android:id="@+id/equipoAño"
+        android:layout_width="72dp"
+        android:layout_height="70dp"
+        android:text="Año" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecicleViewContextual</string>
+    <string name="delete_all">Delete all</string>
+    <string name="fake">fake</string>
+</resources>

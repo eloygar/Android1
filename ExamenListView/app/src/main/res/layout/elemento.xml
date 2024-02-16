@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="10dp">
+
+    <TextView
+        android:id="@+id/club"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Nombre del Club Terriblemente Largo"
+        android:textAlignment="viewStart"
+        android:textSize="14sp"
+        tools:layout_conversion_absoluteHeight="27dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/pais"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:text="Republica de los Nombres Largos"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:layout_conversion_absoluteHeight="200dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_editor_absoluteX="411dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:id="@+id/ciudad"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingHorizontal="5dp"
+        android:text="Nombre de Ciudad Largo"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/año"
+        android:layout_width="20dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="5dp"
+        android:text="9999"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/escudo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        tools:layout_conversion_absoluteHeight="200dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_editor_absoluteX="411dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+
+</LinearLayout>
